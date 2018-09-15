@@ -4,7 +4,6 @@ import os
 
 str1 = Tk()
 str1.title("Ktayama Shutdown Tool")
-str1.iconbitmap('C:/Users/ASUS/Downloads/1.ico')
 str1.geometry('800x200')
 Label(str1, text="此工具由北山所製作", font=(12)).pack()
 button1 = ttk.Button(str1,text="關機")
