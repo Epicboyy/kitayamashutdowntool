@@ -14,7 +14,7 @@ button3 = ttk.Button(str1,text="登出使用者")
 button3.pack()
 button4 = ttk.Button(str1,text="休眠電腦")
 button4.pack()
-Label(str1, text="本城市依照GNU GPL公共授權條款 開源程式碼 : https://github.com/rootmelo92118/kitayamashutdowntool \n 更多詳情請上 : https://www.gnu.org", font=(5)).pack()
+Label(str1, text="本程式依照GNU GPL公共授權條款 開源程式碼 : https://github.com/rootmelo92118/kitayamashutdowntool \n 更多詳情請上 : https://www.gnu.org", font=(5)).pack()
 
 def shutdown():
     os.system("shutdown /s /t 0")
